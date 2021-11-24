@@ -1,0 +1,107 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: #FFF6DB;
+    width: 1000px;
+    padding-left: 50px;
+}
+.tieude{
+    display: flex;
+    padding-top: 20px;
+}
+.tieude img{
+    width: 200px;
+    height: 230px;
+    object-fit: cover;
+    margin-right: 50px;
+}
+.tieude .ten{
+    margin-top: 30px;
+    line-height: 100px;
+}
+.tieude .ten h1{
+    font-size: 400%;
+    color: #EF8762;
+    margin-top: -20px;
+}
+.tieude .ten h3{
+    font-size: 150%;
+}
+.container .anh{
+    width: 70px;
+    height: 40px;
+    object-fit: cover;
+    margin-left: 475px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.link{
+    display: flex;
+    margin-left: -100px;
+    margin-top: 30px;
+}
+.link p img{
+    width: 20px;
+    aspect-ratio: 1;
+    margin-left: 100px;
+}
+.link p a{
+    text-decoration: none;
+    color: black;
+}
+.thongtin{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    position: relative;
+}
+.skill h2{
+    font-size: 200%;
+    color: #EF8762;
+    margin-bottom: 20px;
+}
+.skill p{
+    line-height: 60px;
+}
+.skill p img{
+    width: 20px;
+    height: 20px;
+}
+.experience{
+    margin-right: 300px;
+}
+.experience h2{
+    font-size: 200%;
+    color: #EF8762;
+    margin-bottom: 20px;
+}
+.experience p{
+    line-height: 30px;
+}
+.pex1{
+    font-weight: bolder;
+}
+.pex2{
+    font-style: italic;
+    font-size: 90%;
+}
+.thedoc{
+    height: 100%;
+    position: absolute;
+    border: dashed 2px #EF8762;
+    left: 475px;
+}
+.last{
+    display: flex;
+    margin-left: -60px;
+}
+.last p{
+    margin-left: 60px;
+}
+.last p img{
+    width: 20px;
+    height: 20px;
+}
