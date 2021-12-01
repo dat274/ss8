@@ -1,0 +1,95 @@
+body{
+    background-color: #F0EFF0;
+}
+.content{
+    background-color: white;
+    display: flex;
+    width: 60%;
+    margin: 50px auto;
+    box-shadow: 0px 20px 20px #BFBEBF;
+}
+.content section{
+    padding: 50px;
+    width: 70%;
+}
+.content section .tieude{
+    display: flex;
+    align-items: center;
+}
+.content section .tieude .icon1{
+    width: 10%;
+}
+.content section .tieude .icon1 ion-icon{
+    font-size: 200%;
+    opacity: 0.3;
+}
+.content section .tieude .tittle{
+    width: 50%;
+    display: flex;
+}
+.content section .tieude .tittle .thea a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+    margin-left: 30px;
+}
+.content section .tieude .linkcontact{
+    opacity: 0.3;
+    display: flex;
+}
+.content section .tieude .linkcontact .ion{
+    margin-left: 20px;
+}
+.content section .mid {
+    margin-bottom: 60px;
+}
+.content section .mid h1{
+    margin-top: 50px;
+    font-size: 300%;
+}
+.content section .mid #chuthich{
+    opacity: 0.3;
+    margin-bottom: 30px;
+}
+.content section .mid span {
+    background: linear-gradient(to top, #7DDBB2 30%, #93ECC5 80%) ;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+.content section .bottom{
+    display: flex;
+}
+.content section .bottom .contentbot{
+    border-top: 5px solid #EAEAEA;
+    width: 33%;
+}
+.content section .bottom .contentbot:hover{
+    border-top: 5px solid #FF7C12;
+}
+.content section .bottom .contentbot p{
+    opacity: .3;
+    font-size: 80%;
+}
+.content aside{
+    width: 25%;
+}
+.content aside img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width:1180px) {
+    .content section .tieude{
+        flex-wrap: wrap;
+    }
+    .content section .tieude icon1{
+        width: 50%;
+    }
+    .content section .tieude .tittle{
+        width: 50%;
+    }  
+    .content section .tieude .linkcontact{
+        width: 50%;
+    }     
+}

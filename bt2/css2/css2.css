@@ -1,107 +1,106 @@
-
-*{
-    padding: 0;
-    margin: 0;
+body{
+    width: 80%;
+    background-color:#FFF6DB;
+    margin: 10px auto;
 }
-.container{
-    background-color: #FFF6DB;
-    width: 1000px;
-    padding-left: 50px;
-}
-.tieude{
+header{
     display: flex;
-    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.tieude img{
-    width: 200px;
-    height: 230px;
-    object-fit: cover;
-    margin-right: 50px;
+header .avatar{
+    width: 25%;
+    margin-right: 30px;
 }
-.tieude .ten{
-    margin-top: 30px;
-    line-height: 100px;
+header .avatar img{
+    width: 100%;
 }
-.tieude .ten h1{
-    font-size: 400%;
+header .tittle h1{
+    font-size: 300%;
     color: #EF8762;
-    margin-top: -20px;
 }
-.tieude .ten h3{
-    font-size: 150%;
+section .icon{
+    text-align: center;
 }
-.container .anh{
-    width: 70px;
-    height: 40px;
-    object-fit: cover;
-    margin-left: 475px;
-    margin-bottom: 20px;
-    margin-top: 10px;
+section .icon img{
+    width: 50px;
 }
-.link{
+section .contact{
     display: flex;
-    margin-left: -100px;
-    margin-top: 30px;
 }
-.link p img{
+section .contact .allcontact{
+    width: 33%;
+}
+section .allcontact img{
     width: 20px;
-    aspect-ratio: 1;
-    margin-left: 100px;
 }
-.link p a{
-    text-decoration: none;
-    color: black;
-}
-.thongtin{
+section .information{
     display: flex;
-    margin-top: 40px;
-    justify-content: space-between;
-    position: relative;
-}
-.skill h2{
-    font-size: 200%;
-    color: #EF8762;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
-.skill p{
-    line-height: 60px;
+section .skill{
+    border-right: dashed 5px #EF8762;
+    width: 50%;
 }
-.skill p img{
+section .skill h1{
+    color: #EF8762;
+    font-size: 200%;
+}
+section .skill .theP{
+    line-height: 50px;
+}
+section .skill .theP span{
+    margin-right: 20px;
+}
+section .skill .theP img{
     width: 20px;
-    height: 20px;
 }
-.experience{
-    margin-right: 250px;
+section .experience{
+    width: 40%;
+    margin-left: 10%; ;
 }
-.experience h2{
-    font-size: 200%;
+section .experience h1{
     color: #EF8762;
-    margin-bottom: 20px;
+    font-size: 200%;
 }
-.experience p{
-    line-height: 30px;
-}
-.pex1{
+section .experience .bigtitle{
     font-weight: bolder;
 }
-.pex2{
+section .experience .littletitle{
     font-style: italic;
     font-size: 90%;
 }
-.thedoc{
-    height: 100%;
-    position: absolute;
-    border: dashed 2px #EF8762;
-    left: 475px;
-}
-.last{
+footer{
     display: flex;
-    margin-left: -60px;
 }
-.last p{
-    margin-left: 60px;
+footer .infor{
+    width: 25%;
 }
-.last p img{
+footer .infor img{
     width: 20px;
-    height: 20px;
+}
+/* reponsive */
+@media screen and (max-width:860px) {
+    section .contact{
+        flex-wrap: wrap;
+    }
+    section .contact .allcontact{
+        width: 100%;
+    }
+}
+@media screen and (max-width:750px) {
+    footer{
+        flex-wrap: wrap;
+    }
+    footer .infor{
+        width: 50%;
+    }   
+    section .information .skill .skillist{
+        margin-right: 200px;
+    }
+}
+@media screen and (max-width:650px) {
+    header .tittle{
+    font-size: 80%;
+}
 }

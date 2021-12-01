@@ -1,0 +1,87 @@
+body{
+    background:linear-gradient(to top,#C2DFE5 30%,#E5F3FE 50%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.intro{
+    display: flex;
+    width: 80%;
+    margin: 200px auto;
+    background-color: white;
+    box-shadow: 10px 10px 20px #B4CBD1;
+}
+.intro aside{
+    width: 40%;
+}
+.intro aside img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.intro section{
+    padding: 30px 100px ;
+}
+.intro section .tittle{
+    display: flex;    
+    align-items: center;
+    margin-bottom: 100px;
+}
+.intro section .tittle .tittle1{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    color: #D32B68;
+    font-weight: bolder;
+}
+.intro section .tittle .tittle1 ion-icon{
+    background-color:#D32B68 ;
+    color: white;
+    padding: 3px 0px;
+    margin-right: 5px;
+}
+.intro section .tittle .tittle2{
+    display: flex;
+    width: 40%;
+}
+.intro section .tittle .tittle2 .contact{
+    width: 33.33%;
+}
+.intro section .mid{
+    margin-bottom: 100px;
+}
+.intro section .mid h1{
+    font-size: 300%;
+}
+.intro section .mid hr{
+    width: 10%;
+    margin-bottom: 50px;
+}
+.intro section .last{
+    text-align: right;
+}
+.intro section .last span{
+    background-color: #FF0062;
+    padding: 10px 20px;
+    color: white;
+    align-items: center;
+    box-shadow: 0px 10px 10px #DADDDB;
+}
+@media screen and (max-width:1400px) {
+.intro section .tittle{
+    flex-wrap: wrap;
+}
+.intro section .tittle .tittle1{
+    width: 100%;
+}
+.intro section .tittle .tittle2{
+    width: 100%;
+}
+}
+@media screen and (max-width:680px){
+.intro section .tittle .tittle2{
+    flex-wrap: wrap;
+}
+.intro section .tittle .tittle2 .contact{
+    width: 100%;
+}
+}
